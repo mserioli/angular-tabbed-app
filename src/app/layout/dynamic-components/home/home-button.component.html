@@ -1,0 +1,10 @@
+<div class="btn rounded border border-success home-button">
+  <span (click)="openComponent(false)">
+    Click here to open in current tab, or the icon below to open in a new tab
+    <h3>{{text}}</h3>
+  </span>
+  <div class="externalLink">
+    <fa-icon  [icon]="['fas', 'external-link-alt']" (click)="openComponent(true)">
+    </fa-icon>
+  </div>
+</div>

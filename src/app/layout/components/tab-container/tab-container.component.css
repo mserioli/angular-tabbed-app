@@ -1,0 +1,8 @@
+.link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,16 @@
+.home-button {
+  width: 220px;
+  height: 250px;
+  background-size: contain !important;
+  cursor: pointer;
+}
+
+.home-button > span > img {
+  width: 140px;
+  height: 140px;
+}
+
+.home-button > span > p {
+  word-wrap: break-word;
+}
+

@@ -1,0 +1,6 @@
+<form [formGroup]="testForm" (ngSubmit)="onSubmit()">
+   <label>Insert value</label> 
+ <input type="text" formControlName="name" #sampleValue>
+</form>
+
+<lims-child [inputValue]='sampleValue.value'></lims-child>

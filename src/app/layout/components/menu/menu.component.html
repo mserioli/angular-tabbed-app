@@ -1,0 +1,45 @@
+<header class="container-fluid">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+		<div class="navbar-brand">
+			<fa-icon [icon]="['fas', 'flask']"></fa-icon> Proj
+		</div>
+		<button class="navbar-toggler" data-toggle="collapse" data-target=".theMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="navbar-collapse collapse theMenu">
+    <!--  <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            id="navbarQualityLotFilterUserMenuLink" href="#" >Menu</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarQualityLotFilterUserMenuLink">
+            <li>
+              <span (click)="openComponent('Comp1', false)" class="link">Comp1</span>
+              &nbsp;
+              <span (click)="openComponent('Comp1', true)" class="link">
+                <fa-icon [icon]="['fas', 'external-link-alt']"></fa-icon>
+              </span>
+
+            </li>
+          </ul>
+           <ul class="dropdown-menu" aria-labelledby="navbarQualityLotFilterUserMenuLink">
+            <li>
+              <span (click)="openComponent('Comp2', false)" class="link">Comp2</span>
+              &nbsp;
+              <span (click)="openComponent('Comp2', true)" class="link">
+                <fa-icon [icon]="['fas', 'external-link-alt']"></fa-icon>
+              </span>
+
+            </li>
+          </ul>
+        </li>
+      </ul> -->
+<ul class="navbar-nav">
+       <span class="nav-link link" (click)="back()">
+            <fa-icon [icon]="['fas', 'backward']"></fa-icon>
+          </span>
+     
+      </ul>
+       </div>       
+  </nav>
+</header>
